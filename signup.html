@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="signup-style.css">
+	<title>Summy.id - Sign Up</title>
+</head>
+<body class="signup-page">
+    <section class="h-50">
+        <div class="container h-50">
+			<div class="row justify-content-md-center h-100">
+				<div class="card-wrapper">
+					<div class="card fat">
+                        <div class="card-title">
+                            <h3>Register to Summy.id</h3>
+                        </div>
+                        <div class="card-body">
+                            <form method="POST" class="register-account"novalidate="">
+                                <div class="form-group">
+                                    <label for="name">NAME</label>
+									<input id="name" type="name" class="form-control" name="name" value="" required autofocus placeholder="Name">
+                                </div>
+                                <div class="form-group">
+									<label for="email">EMAIL</label>
+									<input id="email" type="email" class="form-control" name="email" value="" required autofocus placeholder="Email address">
+									<div class="invalid-feedback">
+										Email is invalid
+								</div>
+
+                                <div class="form-group">
+									<label for="phone-number">PHONE NUMBER</label>
+									<input id="phone-number" type="phone-number" class="form-control" name="phone-number" value="" required autofocus placeholder="Phone number">
+								</div>
+
+                                <div class="form-group">
+									<label for="password">PASSWORD
+										<a href="" class="float-right">
+											Forgot Password?
+										</a>
+									</label>
+									<input id="password" type="password" class="form-control" name="password" required data-eye placeholder="Password">
+								    <div class="invalid-feedback">
+								    	Password is required
+							    	</div>
+								</div>
+                                <div class="form-group m-0">
+									<button type="submit" class="btn btn-primary btn-block">
+										Register
+									</button>
+								</div>
+								<div class="mt-4 text-center">
+									Have an account? <a href="login.html">Log In</a>
+								</div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
